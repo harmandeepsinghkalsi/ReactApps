@@ -26,8 +26,8 @@ function FilterableProductTable(props: { products: any; }) {
 
   return (
     <div>
-      <SearchBar setFilterText ={setFilterText} setInStockyOnly ={setInStockyOnly} 
-      filterText={filterText} inStockOnly={inStockOnly}></SearchBar>
+      <SearchBar filterText={filterText} inStockOnly={inStockOnly} setFilterText ={setFilterText} setInStockyOnly ={setInStockyOnly} 
+       ></SearchBar>
       <ProductTable filterText={filterText} inStockOnly={inStockOnly} 
       products={props.products}></ProductTable>
     </div>
