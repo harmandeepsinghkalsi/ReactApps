@@ -1,0 +1,58 @@
+table {
+    border-collapse: collapse;
+    position: absolute;
+    top:10%;
+    left:30%;
+    table-layout: fixed;
+    width: 40%;
+  }
+
+  table td,tr {
+  border: 2px solid black;
+  text-align: left;
+  padding: 40px;
+  }
+
+  button {
+  background-color: #2a609a;
+  width: 130px;
+  height: 60px;
+  color: white;
+  outline: none;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  display: block;
+  margin-bottom: 5px;
+
+  }
+
+  button:hover{
+    background-color: #32CD32;
+    font-size: 20px;
+    transition: 0.5s;
+  }
+
+  .robot-north{
+      content: url(./images/Robot_north.jpg);
+      display: block;
+      width:100%;
+  }
+
+  .robot-east{
+    content: url(./images/Robot_east.jpg);
+    display: block;
+    width:100%;
+}
+
+.robot-south{
+    content: url(./images/Robot_south.jpg);
+    display: block;
+    width:100%;
+}
+
+.robot-west{
+    content: url(./images/Robot_west.jpg);
+    display: block;
+    width:100%;
+}
