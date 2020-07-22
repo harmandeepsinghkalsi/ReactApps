@@ -1,0 +1,27 @@
+.Login {
+    width:45%;
+    background:purple;
+    height:50%;
+    position: absolute;
+    top:20%;
+    left:30%;
+}
+
+.LoginHeader{
+  height:100px;
+  width:100%;
+  font-size: xx-large;
+  color:white;
+  line-height: 100px;
+  text-align: center;
+}
+
+.Form{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height:20vh;
+  line-height: 5vh;
+  text-align:center;
+}
